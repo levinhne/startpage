@@ -12,6 +12,9 @@ RUN apk add --no-cache curl \
 
   
 
+
+  
+
 COPY config ./config
 
 EXPOSE 8080
