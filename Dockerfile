@@ -8,6 +8,10 @@ RUN apk add --no-cache curl \
   && tar -xzf glance-linux-amd64.tar.gz \
   && rm glance-linux-amd64.tar.gz
 
+
+
+  
+
 COPY config ./config
 
 EXPOSE 8080
